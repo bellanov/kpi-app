@@ -2,7 +2,6 @@
 from flask import Flask, make_response, request, jsonify
 
 
-# Create Flask's `app` object
 app = Flask(__name__)
 
 
