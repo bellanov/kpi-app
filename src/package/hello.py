@@ -1,4 +1,4 @@
-"""Flask Application."""
+"""Metrics & KPIs."""
 from flask import Flask, make_response, request, jsonify
 
 
