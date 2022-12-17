@@ -1,5 +1,14 @@
-"""Generators Example."""
+"""Generator Examples.
+
+    Seems ideally:
+    
+    1) Generators first, as they are the most memory efficient means of iterating data.
+    2) List comprehensions if code can't be optimized / converted to Generators
+    3) Stream data or obtain the payload from a cache if there are too may items to handle.
+
+"""
 import tracemalloc
+
 
 # Sum via List Comprehension
 # The ENTIRE list is generated at once THEN summed
