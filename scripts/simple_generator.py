@@ -1,4 +1,4 @@
-"""Generator Examples.
+"""Generator Example.
 
     Seems ideally:
     
